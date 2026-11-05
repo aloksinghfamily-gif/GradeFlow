@@ -1,0 +1,143 @@
+
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("/assets/6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(230, 90, 136);
+  text-align: center;
+}
+
+
+.navbar {
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+   padding: 20px;
+  top: 0;
+  z-index: 100;
+}
+
+.logo img {
+  width: 250px;
+  margin-top: 15px;
+}
+
+.nav-links a {
+  color: rgb(241, 235, 241);
+  text-decoration: none;
+  margin: 40px;
+   width: 20px;
+}
+
+.hero-content {
+  padding: 120px 20px;
+}
+
+.start-btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-content h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+  color: #81f14d;
+  text-shadow: 0px 4px 10px rgba(49, 2, 2, 0.3);
+}
+
+.hero-content h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #ebe701;
+  text-shadow: 0px 4px 10px rgba(41, 4, 4, 0.3);
+}
+
+.hero-content p {
+  font-size: 35px;
+  line-height: 1.6;
+}
+.start-btn {
+  background-color: #52a7ec;
+  color: #17243a;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #17243a;
+  color: white;
+}
+
+#about h2,
+#contact h2 {
+  color: #b83434;
+}
+#about p,
+#contact p {
+  color: #f38e3c;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Main Portal Selection Page */
+
+/* Portal Header */
+.portal-header {
+  text-align: left;
+  padding: 25px;
+  background-color: #17243a;
+  color: rgb(223, 98, 98);
+}
+
+.portal-header h1 {
+  margin: 0 0 10px;
+}
+
+.portal-header h2 {
+  margin: 0;
+}
+
+
+.selection-page {
+  min-height: 100vh; 
+  background-image: url("/assets/—Pngtree—welcome back to school background_1207865.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center; 
+  padding: 50px 20px; 
+  color: #17243a; 
+}
+
+/* Institute, Teacher and Student Cards */
+.role-card {
+  background: rgb(221, 90, 90);
+  padding: 25px; 
+  margin: 20px auto; 
+  max-width: 500px; 
+  border: 1px solid #4d0d0d; 
+}
+
+/* Buttons inside the Cards */
+.role-card button {
+  background: #17243a; 
+  color: rgb(173, 184, 80); 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer;
+}
+
+
+
+
